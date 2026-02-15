@@ -1,0 +1,27 @@
+change the directory to typescript-training
+================================
+cd <your-dir>
+
+
+Command 1 : exclude from security policy
+===============================
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+Command 2: install typescript
+===============================
+
+npm install -g typescript
+
+Command 3: Check the version of Typescript
+===============================
+tsc -v
+tsc --version
+
+Command 4: To run type script programs directly
+===============================
+npm install -D typescript ts-node
+npx tsc --init
+
+Command 5: Install Modren typescript executor to run directly
+===============================
+npm install -g tsx 
